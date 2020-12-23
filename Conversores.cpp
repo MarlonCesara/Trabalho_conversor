@@ -1,13 +1,5 @@
 #include <iostream>
-#include <stdlib.h> 
-#include <locale.h>
-#include <stdio.h>
-#include <conio.h>
-#include <string>
-#include <list>
-#include <cstring>
-#include <sstream>
-#include <math.h>
+#include <bits/stdc++.h>
 
 
 using namespace std;
@@ -42,13 +34,13 @@ int pare;
 		cout << "\n";
 		cout << "\n";	
 
-		cout << "Escolha uma das opções: " << endl;
+		cout << "Escolha uma das opÃ§Ãµes: " << endl;
 		cout << "\n";
 		cout << "\n";
 		cout << "\n";
 		cout << "\n";
-		cout << "Digite 1 para transformar um numero decimal e binário." << endl;
-		cout << "Digite 2 para transformar um numero binário em decimal." << endl;
+		cout << "Digite 1 para transformar um numero decimal e binÃ¡rio." << endl;
+		cout << "Digite 2 para transformar um numero binÃ¡rio em decimal." << endl;
 		cin >> tec;
 		system("cls");
 
@@ -114,7 +106,7 @@ int pare;
 			} 
 			
 			
-			cout << "O numero "<<decimal3<< " em binário é: "<<endl;
+			cout << "O numero "<<decimal3<< " em binÃ¡rio Ã©: "<<endl;
 			
 			for (i = 0; i <= contador; i++)
 
@@ -131,7 +123,7 @@ int pare;
 			{
 				
 				
-				cout << "Digite um numero binario de até 10 digitos : ";
+				cout << "Digite um numero binario de atÃ© 10 digitos : ";
 	cin >> n;
 
 
@@ -187,7 +179,7 @@ int pare;
 		}
 		
 		
-		 cout << "O resultado em decimal é " <<total;	
+		 cout << "O resultado em decimal Ã© " <<total;	
 				
 			}
 			
